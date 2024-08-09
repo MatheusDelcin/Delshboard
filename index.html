@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Delshboard</title>
+</head>
+<body>
+
+    <div class="container">
+      <!-- Sidebar Section -->
+      <aside>
+        <div class="toggle">
+          <div class="logo">
+            <img src="Images/logo.png" alt="">
+            <h2>Del<span class="danger">Shboard</span></h2>
+          </div>
+          <div class="close" id="classe-btn">
+            <span class="material-icons-sharp">
+              close
+              </span>
+          </div>
+        </div>
+
+        <div class="sidebar">
+          <a href="#">
+            <span class="material-icons-sharp">
+              space_dashboard
+              </span>
+              <h3>Dashboard</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">
+              person
+              </span>
+              <h3>Usuarios</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">
+              receipt
+              </span>
+              <h3>Historia</h3>
+          </a>
+          <a href="#" class="active">
+            <span class="material-icons-sharp">
+              analytics
+              </span>
+              <h3>Analises</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">
+              mail
+              </span>
+              <h3>Email</h3>
+              <span class="message-count">27</span>
+          </a>  
+          <a href="#">
+            <span class="material-icons-sharp">
+              fact_check
+              </span>
+              <h3>Vendas</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">
+              report_gmailerrorred
+              </span>
+              <h3>Informações</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">
+              settings
+              </span>
+              <h3>Configurações</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">
+              add
+              </span>
+              <h3>Novo Usuario</h3>
+          </a>
+          <a href="#">
+            <span class="material-icons-sharp">
+              login
+              </span>
+              <h3>Sair</h3>
+          </a>
+        </div>
+
+      </aside>
+      <!-- End Sidebar Section -->
+
+      <!-- Main Content -->
+      <main>
+        <h1>Analises</h1>
+        <!-- Analises -->
+        <div class="analyse">
+          <div class="sales">
+            <div class="status">
+              <div class="info">
+                <h3>Total de vendas</h3>
+                <h1>R$65,00</h1>
+              </div>
+              <div class="progresss">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="percentage">
+                  <p>+81%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="visits">
+            <div class="status">
+              <div class="info">
+                <h3>Total de visitas</h3>
+                <h1>57,998</h1>
+              </div>
+              <div class="progresss">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="percentage">
+                  <p>-33%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="searches">
+            <div class="status">
+              <div class="info">
+                <h3>Total Buscas</h3>
+                <h1>14,148</h1>
+              </div>
+              <div class="progresss">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="percentage">
+                  <p>+21%</p>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- End analyses -->
+      </main>
+
+    </div>
+    
+    <script src="orders.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
